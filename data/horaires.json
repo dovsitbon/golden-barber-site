@@ -1,0 +1,16 @@
+{
+  "_note": "Jours : 0 = dimanche … 6 = samedi. Heures HH:MM, heure de Paris. Fermetures exceptionnelles (congés, jours fériés) dans closures, au format AAAA-MM-JJ, avec un label { fr, en }.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "0": null,
+    "1": null,
+    "2": [["10:00", "20:00"]],
+    "3": [["10:00", "20:00"]],
+    "4": [["10:00", "20:00"]],
+    "5": [["10:00", "20:00"]],
+    "6": [["10:00", "20:00"]]
+  },
+  "closures": [
+    { "from": "2026-12-25", "to": "2026-12-25", "label": { "fr": "Noël", "en": "Christmas Day" } }
+  ]
+}

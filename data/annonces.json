@@ -1,0 +1,10 @@
+{
+  "_note": "Bandeau du haut. L'annonce active la plus récente (from <= aujourd'hui <= to) s'affiche ; sinon le message par défaut (l'abonnement). Changer l'id pour réafficher le bandeau à ceux qui l'avaient fermé. anchor = section de l'accueil vers laquelle pointe le lien.",
+  "default": {
+    "id": "abonnement-2026",
+    "text": { "fr": "Abonnement : 4 prestations dans le mois, 3 payées", "en": "Membership: 4 services a month, pay for 3" },
+    "link": { "fr": "Comment ça marche", "en": "How it works" },
+    "anchor": "abonnement"
+  },
+  "items": []
+}

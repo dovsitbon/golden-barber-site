@@ -1,0 +1,306 @@
+@import "tailwindcss";
+
+@custom-variant light (&:where(.light, .light *));
+
+@theme {
+  --color-ink: #0d0d0d;
+  --color-coal: #161616;
+  --color-char: #1e1e1e;
+  --color-gold: #c8a24a;
+  --color-gold-hi: #dcbc6c;
+  --color-gold-ink: #8a6a1e;
+  --color-paper: #f4f1ea;
+  --color-paper-2: #e9e4d9;
+  --color-bone: #c9c4ba;
+  --color-ash: #9a958c;
+  --color-stone: #5d5952;
+  --color-open: #7fae7a;
+  --color-shut: #c9786a;
+
+  --font-display: var(--font-archivo), "Archivo", system-ui, sans-serif;
+  --font-sans: var(--font-inter), "Inter", system-ui, sans-serif;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    background: var(--color-ink);
+    color: var(--color-paper);
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px;
+  }
+  body {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection {
+    background: var(--color-gold);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-gold);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+  .light :focus-visible {
+    outline-color: var(--color-ink);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Titres : grotesque large (Archivo, axe de chasse étendu) */
+.display {
+  font-family: var(--font-display);
+  font-stretch: 125%;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.02;
+  text-wrap: balance;
+}
+.wordmark {
+  font-family: var(--font-display);
+  font-stretch: 125%;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+.eyebrow {
+  font-family: var(--font-display);
+  font-stretch: 112%;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Signature : la rampe de gris d'un dégradé de coupe, du clair au foncé */
+.ramp {
+  display: inline-flex;
+  gap: 2px;
+}
+.ramp i {
+  display: block;
+  width: 10px;
+  height: 3px;
+}
+.ramp i:nth-child(1) { background: #ece8df; }
+.ramp i:nth-child(2) { background: #bdb8ae; }
+.ramp i:nth-child(3) { background: #8d8981; }
+.ramp i:nth-child(4) { background: #5d5a55; }
+.ramp i:nth-child(5) { background: #34322f; }
+.light .ramp i:nth-child(1) { background: #c9c4ba; }
+.light .ramp i:nth-child(2) { background: #9a958c; }
+.light .ramp i:nth-child(3) { background: #6c6862; }
+.light .ramp i:nth-child(4) { background: #3e3b37; }
+.light .ramp i:nth-child(5) { background: #121212; }
+
+/* Boutons. L'or reste un ton : reflet du même or au survol, pas de dégradé de teinte */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: 48px;
+  padding: 0 1.5rem;
+  border-radius: 2px;
+  font-family: var(--font-display);
+  font-stretch: 112%;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background-color 0.2s var(--ease-out), color 0.2s var(--ease-out), border-color 0.2s var(--ease-out), background-position 0.6s var(--ease-out), transform 0.15s var(--ease-out);
+}
+.btn:active {
+  transform: scale(0.98);
+}
+.btn-gold {
+  color: var(--color-ink);
+  background-color: var(--color-gold);
+  background-image: linear-gradient(105deg, transparent 38%, rgb(255 236 180 / 0.35) 50%, transparent 62%);
+  background-size: 250% 100%;
+  background-position: 120% 0;
+  background-repeat: no-repeat;
+}
+.btn-gold:hover {
+  background-position: -20% 0;
+}
+.btn-line {
+  color: var(--color-paper);
+  border: 1px solid rgb(244 241 234 / 0.32);
+}
+.btn-line:hover {
+  border-color: var(--color-gold);
+  color: var(--color-gold-hi);
+}
+.light .btn-line {
+  color: var(--color-ink);
+  border-color: rgb(13 13 13 / 0.3);
+}
+.light .btn-line:hover {
+  border-color: var(--color-ink);
+  color: var(--color-ink);
+  background: rgb(13 13 13 / 0.04);
+}
+.btn-ink {
+  color: var(--color-paper);
+  background: var(--color-ink);
+}
+.btn-ink:hover {
+  background: #262626;
+}
+.btn-sm {
+  min-height: 40px;
+  padding: 0 1rem;
+  font-size: 0.75rem;
+}
+
+.link-line {
+  background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat;
+  transition: background-size 0.25s var(--ease-out), color 0.2s;
+}
+.link-line:hover {
+  background-size: 0 1px;
+  background-position: 100% 100%;
+}
+
+.hairline {
+  border-color: rgb(244 241 234 / 0.1);
+}
+.light .hairline {
+  border-color: rgb(13 13 13 / 0.12);
+}
+.rule-gold {
+  height: 1px;
+  background: var(--color-gold);
+}
+
+/* Section claire (prix, FAQ) */
+.light {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+/* ——— Effet d'ouverture : une lame trace le contour, un dégradé de gris se dessine, le nom apparaît ——— */
+.intro {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  background: var(--color-ink);
+  animation: intro-out 0.32s var(--ease-out) 1.18s forwards;
+}
+.intro-seen .intro,
+html:not(.js) .intro {
+  display: none;
+}
+.intro-blade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 30px);
+  height: 1px;
+  background: var(--color-gold);
+  transform-origin: left center;
+  transform: scaleX(0);
+  animation: blade 0.42s cubic-bezier(0.7, 0, 0.2, 1) 0.08s forwards;
+}
+.intro-blade::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -1px;
+  width: 36px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #fff3cf);
+  opacity: 0;
+  animation: glint 0.42s linear 0.08s;
+}
+.intro-fade {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - 29px);
+  display: grid;
+  grid-template-rows: repeat(6, 5px);
+}
+.intro-fade i {
+  display: block;
+  transform-origin: left center;
+  transform: scaleX(0);
+  animation: blade 0.34s cubic-bezier(0.7, 0, 0.2, 1) forwards;
+}
+.intro-fade i:nth-child(1) { background: #8a877f; animation-delay: 0.4s; }
+.intro-fade i:nth-child(2) { background: #6c6963; animation-delay: 0.45s; }
+.intro-fade i:nth-child(3) { background: #504e4a; animation-delay: 0.5s; }
+.intro-fade i:nth-child(4) { background: #383633; animation-delay: 0.55s; }
+.intro-fade i:nth-child(5) { background: #252422; animation-delay: 0.6s; }
+.intro-fade i:nth-child(6) { background: #171717; animation-delay: 0.65s; }
+.intro-name {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% + 32px);
+  text-align: center;
+  color: var(--color-gold);
+  opacity: 0;
+  transform: translateY(6px);
+  animation: name-in 0.34s var(--ease-out) 0.72s forwards;
+}
+@keyframes blade {
+  to { transform: scaleX(1); }
+}
+@keyframes glint {
+  0%, 90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes name-in {
+  to { opacity: 1; transform: none; }
+}
+@keyframes intro-out {
+  to { opacity: 0; visibility: hidden; }
+}
+
+/* Apparitions au défilement (sans JS : visibles) */
+.fade-in {
+  animation: fade-in 0.4s var(--ease-out) both;
+}
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(-4px); }
+}
+
+/* Détails/FAQ */
+details summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+
+/* Galerie */
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

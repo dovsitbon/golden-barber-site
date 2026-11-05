@@ -1,0 +1,20 @@
+{
+  "name": "Golden Barber",
+  "url": "https://golden-barber-amiens.vercel.app",
+  "phone": "07 83 55 96 92",
+  "phoneIntl": "+33783559692",
+  "whatsapp": "33783559692",
+  "planity": "https://www.planity.com/golden-barber-80000-amiens",
+  "instagram": "https://www.instagram.com/goldenbarber_80/",
+  "instagramHandle": "@goldenbarber_80",
+  "address": { "street": "8 rue Flatters", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8954147, "lng": 2.2996552 },
+  "maps": "https://www.google.com/maps/search/?api=1&query=Golden+Barber+8+rue+Flatters+80000+Amiens",
+  "_ratingsNote": "Notes relevées le 5 novembre 2026 : mettre à jour la date (asOf) à chaque relevé.",
+  "ratings": {
+    "google": { "value": 4.6, "count": 421, "asOf": "2026-11-05" },
+    "planity": { "value": 4.8, "count": 356, "asOf": "2026-11-05" }
+  },
+  "siret": null,
+  "legalName": null
+}

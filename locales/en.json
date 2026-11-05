@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Barber in Amiens city centre | Golden Barber, 8 rue Flatters",
+    "description": "Barbershop for everyone in central Amiens, by the cathedral: fades, tapers, beards and line-ups, cuts from €25. Book online with the barber you want.",
+    "ogAlt": "Low fade by Golden Barber, Amiens"
+  },
+  "skip": "Skip to content",
+  "intro": {
+    "skip": "Skip"
+  },
+  "nav": {
+    "services": "Prices",
+    "team": "Team",
+    "work": "Our work",
+    "info": "Visit",
+    "book": "Book",
+    "menu": "Menu",
+    "close": "Close",
+    "home": "Home",
+    "language": "Language",
+    "instagram": "Golden Barber on Instagram"
+  },
+  "announce": {
+    "close": "Close banner"
+  },
+  "hero": {
+    "eyebrow": "Barber · Amiens city centre",
+    "title": "A clean fade, every single visit",
+    "lead": "A barbershop for everyone at 8 rue Flatters, a short walk from the cathedral. Men, women, kids: we take the time to get it right.",
+    "book": "Book",
+    "prices": "See prices",
+    "imgAlt": "Sharp low fade on mid-length hair swept back, cut at the shop"
+  },
+  "ratings": {
+    "google": "Google",
+    "planity": "Planity",
+    "reviews": "{count} reviews",
+    "asOf": "Ratings as of {date}",
+    "label": "{value} out of 5 on {source}, {count} reviews"
+  },
+  "status": {
+    "open": "Open now",
+    "until": "until {time}",
+    "closed": "Closed",
+    "reopens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "days": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday"
+  ],
+  "services": {
+    "label": "Prices",
+    "title": "Clear prices, no surprises",
+    "lead": "What you see here is what you pay at the shop. Booking is on Planity and takes under a minute.",
+    "groups": {
+      "cheveux": "Haircuts",
+      "barbe": "Beard and line-up",
+      "apprenti": "With our apprentice"
+    },
+    "minutes": "{n} min",
+    "hour": "1 hr",
+    "book": "Book",
+    "bookAria": "Book “{name}” on Planity",
+    "asOf": "Prices taken from Planity on {date}",
+    "all": "All services",
+    "pageTitle": "Golden Barber prices, barber in Amiens",
+    "pageLead": "Classic cut, fade, beard, kids' cut: every price at the shop, with how long each service takes.",
+    "planityHint": "On Planity, tap “Choisir” next to the service, then pick your barber."
+  },
+  "team": {
+    "label": "Team",
+    "title": "Pick your barber",
+    "lead": "Five pairs of hands, one standard. Book straight in with the one you like.",
+    "book": "Book with him",
+    "bookAria": "Book with {name} on Planity",
+    "hint": "On Planity, at the “Avec qui ?” step, choose {name}.",
+    "apprentice": "Apprentice",
+    "instagram": "{name} on Instagram",
+    "noSpecialty": "Barber"
+  },
+  "work": {
+    "label": "Our work",
+    "title": "Fresh out of the chair",
+    "lead": "Cuts done at the shop, exactly as they walked out.",
+    "all": "All",
+    "filters": {
+      "degrade": "Fade",
+      "taper": "Taper",
+      "barbe": "Beard",
+      "long": "Long hair",
+      "enfant": "Kids"
+    },
+    "by": "By {name}",
+    "byTeam": "The Golden Barber team",
+    "open": "Enlarge photo",
+    "close": "Close",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "more": "More cuts on Instagram"
+  },
+  "membership": {
+    "label": "Membership",
+    "title": "4 services a month, pay for 3",
+    "body": "Come in often? Have four services in the same month and the fourth is on us. An easy way to keep your fade sharp all year.",
+    "steps": [
+      "Book as usual",
+      "We keep track of your visits that month",
+      "The fourth one is free"
+    ],
+    "cta": "Ask the shop"
+  },
+  "salon": {
+    "label": "The shop",
+    "title": "Right in central Amiens, by the cathedral",
+    "body": "The shop is on rue Flatters, in the shopping streets, a short walk from Notre-Dame. A bright room and a relaxed, focused atmosphere: you come for the cut and come back for the team.",
+    "cta": "Get the address"
+  },
+  "info": {
+    "label": "Visit",
+    "title": "Come and see us",
+    "address": "Address",
+    "hours": "Opening hours",
+    "phone": "Phone",
+    "closedDay": "Closed",
+    "access": "Getting here",
+    "accessText": "Right in the centre, in the shopping streets, a short walk from Notre-Dame cathedral.",
+    "directions": "Directions",
+    "call": "Call",
+    "mapTitle": "Map: Golden Barber, 8 rue Flatters, Amiens",
+    "closures": "Holiday closures"
+  },
+  "question": {
+    "title": "Got a question?",
+    "lead": "Write to us and we'll reply on WhatsApp.",
+    "name": "First name",
+    "phone": "Phone",
+    "message": "Your message",
+    "send": "Send on WhatsApp",
+    "required": "Please fill in this field",
+    "waIntro": "Hi Golden Barber,",
+    "waName": "Name: {v}",
+    "waPhone": "Phone: {v}",
+    "waMessage": "Message: {v}"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Good to know"
+  },
+  "footer": {
+    "tagline": "Barbershop for everyone in central Amiens",
+    "legal": "Legal notice",
+    "book": "Book on Planity",
+    "rights": "All rights reserved"
+  },
+  "whatsapp": {
+    "float": "Message us on WhatsApp",
+    "hello": "Hi Golden Barber, I have a question:"
+  },
+  "mobileBar": {
+    "book": "Book",
+    "call": "Call"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "editor": "Site publisher",
+    "editorText": "Golden Barber, 8 rue Flatters, 80000 Amiens, France. Phone: +33 7 83 55 96 92.",
+    "siret": "Company number (SIRET): to be confirmed.",
+    "host": "Hosting",
+    "hostText": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
+    "data": "Personal data",
+    "dataText": "This site uses no advertising cookies and no analytics. The “Got a question?” form stores nothing: it opens WhatsApp with your message, which you choose to send or not. Bookings are handled by Planity under its own privacy policy.",
+    "credits": "Photos",
+    "creditsText": "Photos: Golden Barber."
+  },
+  "notFound": "Page not found"
+}

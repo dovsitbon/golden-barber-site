@@ -1,0 +1,11 @@
+{
+  "_note": "photo : chemin dans public/media/equipe/ (ex. /media/equipe/breezy.jpg, portrait 4:5, déposé dans assets/equipe/ puis npm run media) ; null = carte typographique. specialty : null tant que le barber ne l'a pas validée. instagram : null si inconnu.",
+  "members": [
+    { "id": "giovanni", "name": "Giovanni", "photo": null, "instagram": null, "specialty": null },
+    { "id": "breezy", "name": "Breezy", "photo": null, "instagram": "https://www.instagram.com/breezy_the_barber/", "specialty": null },
+    { "id": "toma", "name": "Toma", "photo": null, "instagram": null, "specialty": null },
+    { "id": "anzo", "name": "Anzo", "photo": null, "instagram": null, "specialty": null },
+    { "id": "nolan", "name": "Nolan", "photo": null, "instagram": null, "apprentice": true,
+      "specialty": { "fr": "Apprenti barber, coupe à 15 €", "en": "Apprentice barber, €15 cut" } }
+  ]
+}

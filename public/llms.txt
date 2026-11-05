@@ -1,0 +1,30 @@
+# Golden Barber
+
+> Barbier mixte (hommes, femmes, enfants) au 8 rue Flatters, 80000 Amiens, près de la cathédrale Notre-Dame. Dégradés, tapers, barbe, contours. Réservation en ligne sur Planity.
+
+- Adresse : 8 rue Flatters, 80000 Amiens, France
+- Téléphone et WhatsApp : +33 7 83 55 96 92
+- Horaires : du mardi au samedi, 10 h – 20 h ; fermé dimanche et lundi
+- Réservation : https://www.planity.com/golden-barber-80000-amiens
+- Instagram : https://www.instagram.com/goldenbarber_80/
+- Équipe : Giovanni, Breezy, Toma, Anzo ; Nolan, apprenti barber
+- Abonnement : 4 prestations dans le mois, 3 payées
+- Notes (5 novembre 2026) : 4,6/5 sur Google (421 avis), 4,8/5 sur Planity (356 avis)
+
+## Tarifs (Planity, 5 novembre 2026)
+
+- Coupe simple (cheveux courts), 25 min : 25 €
+- Formule coupe + barbe, 25 min : 30 €
+- Coupe cheveux mi-longs ou longs, 55 min : 50 €
+- Cheveux mi-longs ou longs + barbe, 55 min : 60 €
+- Coupe enfant (jusqu'à 12 ans), 20 min : 20 €
+- Barbe, 15 min : 15 €
+- Traçage des contours, 10 min : 10 €
+- Coupe apprenti avec Nolan, 1 h : 15 €
+
+## Pages
+
+- [Accueil (FR)](https://golden-barber-amiens.vercel.app/fr)
+- [Home (EN)](https://golden-barber-amiens.vercel.app/en)
+- [Tarifs](https://golden-barber-amiens.vercel.app/fr/tarifs)
+- [Prices](https://golden-barber-amiens.vercel.app/en/prices)

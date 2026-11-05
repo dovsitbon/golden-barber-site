@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "title": "Barbier à Amiens centre | Golden Barber, 8 rue Flatters",
+    "description": "Barbier mixte à Amiens centre, près de la cathédrale : dégradé, taper, barbe et contours, coupe dès 25 €. Réservez en ligne avec le barber de votre choix.",
+    "ogAlt": "Low fade réalisé chez Golden Barber, Amiens"
+  },
+  "skip": "Aller au contenu",
+  "intro": {
+    "skip": "Passer"
+  },
+  "nav": {
+    "services": "Prestations",
+    "team": "L'équipe",
+    "work": "Réalisations",
+    "info": "Infos",
+    "book": "Réserver",
+    "menu": "Menu",
+    "close": "Fermer",
+    "home": "Accueil",
+    "language": "Langue",
+    "instagram": "Instagram de Golden Barber"
+  },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "hero": {
+    "eyebrow": "Barbier · Amiens centre",
+    "title": "Un dégradé net, à chaque passage",
+    "lead": "Barbier mixte au 8 rue Flatters, à deux pas de la cathédrale. Hommes, femmes, enfants : on prend le temps de faire propre.",
+    "book": "Réserver",
+    "prices": "Voir les prix",
+    "imgAlt": "Low fade net sur cheveux mi-longs coiffés en arrière, réalisé au salon"
+  },
+  "ratings": {
+    "google": "Google",
+    "planity": "Planity",
+    "reviews": "{count} avis",
+    "asOf": "Notes relevées le {date}",
+    "label": "{value} sur 5 sur {source}, {count} avis"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "until": "jusqu'à {time}",
+    "closed": "Fermé",
+    "reopens": "réouverture {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "days": [
+    "dimanche",
+    "lundi",
+    "mardi",
+    "mercredi",
+    "jeudi",
+    "vendredi",
+    "samedi"
+  ],
+  "services": {
+    "label": "Prestations",
+    "title": "Les prix, sans surprise",
+    "lead": "Ce que vous voyez ici est ce que vous payez au salon. La réservation se fait sur Planity, en moins d'une minute.",
+    "groups": {
+      "cheveux": "Coupes",
+      "barbe": "Barbe et contours",
+      "apprenti": "Avec notre apprenti"
+    },
+    "minutes": "{n} min",
+    "hour": "1 h",
+    "book": "Réserver",
+    "bookAria": "Réserver « {name} » sur Planity",
+    "asOf": "Tarifs relevés sur Planity le {date}",
+    "all": "Toutes les prestations",
+    "pageTitle": "Tarifs Golden Barber, barbier à Amiens",
+    "pageLead": "Coupe simple, dégradé, barbe, coupe enfant : tous les prix du salon, avec la durée de chaque prestation.",
+    "planityHint": "Sur Planity, cliquez « Choisir » à côté de la prestation, puis le barber."
+  },
+  "team": {
+    "label": "L'équipe",
+    "title": "Choisissez votre barber",
+    "lead": "Cinq paires de mains, un même niveau d'exigence. Vous réservez directement avec celui que vous préférez.",
+    "book": "Réserver avec lui",
+    "bookAria": "Réserver avec {name} sur Planity",
+    "hint": "Sur Planity, à l'étape « Avec qui ? », choisissez {name}.",
+    "apprentice": "Apprenti",
+    "instagram": "Instagram de {name}",
+    "noSpecialty": "Barber"
+  },
+  "work": {
+    "label": "Réalisations",
+    "title": "Sortis du fauteuil",
+    "lead": "Des coupes faites au salon, telles qu'elles sont parties.",
+    "all": "Tout",
+    "filters": {
+      "degrade": "Dégradé",
+      "taper": "Taper",
+      "barbe": "Barbe",
+      "long": "Cheveux longs",
+      "enfant": "Enfant"
+    },
+    "by": "Par {name}",
+    "byTeam": "L'équipe Golden Barber",
+    "open": "Agrandir la photo",
+    "close": "Fermer",
+    "prev": "Photo précédente",
+    "next": "Photo suivante",
+    "more": "Plus de coupes sur Instagram"
+  },
+  "membership": {
+    "label": "Abonnement",
+    "title": "4 prestations dans le mois, 3 payées",
+    "body": "Vous passez souvent ? Sur quatre prestations faites dans le même mois, la quatrième est offerte. Pratique pour garder un dégradé net toute l'année.",
+    "steps": [
+      "Vous réservez comme d'habitude",
+      "On note vos passages du mois",
+      "La quatrième ne vous coûte rien"
+    ],
+    "cta": "Demander au salon"
+  },
+  "salon": {
+    "label": "Le salon",
+    "title": "Au cœur d'Amiens, près de la cathédrale",
+    "body": "Le salon est rue Flatters, dans les rues commerçantes, à quelques pas de Notre-Dame. Un lieu lumineux, une ambiance détendue et sérieuse à la fois : on vient pour la coupe, on revient pour l'équipe.",
+    "cta": "Voir l'adresse"
+  },
+  "info": {
+    "label": "Infos pratiques",
+    "title": "Passer nous voir",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "phone": "Téléphone",
+    "closedDay": "Fermé",
+    "access": "Accès",
+    "accessText": "En plein centre, dans les rues commerçantes, à quelques pas de la cathédrale Notre-Dame.",
+    "directions": "Itinéraire",
+    "call": "Appeler",
+    "mapTitle": "Carte : Golden Barber, 8 rue Flatters, Amiens",
+    "closures": "Fermetures exceptionnelles"
+  },
+  "question": {
+    "title": "Une question ?",
+    "lead": "Écrivez-nous, la réponse arrive sur WhatsApp.",
+    "name": "Prénom",
+    "phone": "Téléphone",
+    "message": "Votre message",
+    "send": "Envoyer sur WhatsApp",
+    "required": "Merci de remplir ce champ",
+    "waIntro": "Bonjour Golden Barber,",
+    "waName": "Prénom : {v}",
+    "waPhone": "Téléphone : {v}",
+    "waMessage": "Message : {v}"
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Questions fréquentes"
+  },
+  "footer": {
+    "tagline": "Barbier mixte à Amiens centre",
+    "legal": "Mentions légales",
+    "book": "Réserver sur Planity",
+    "rights": "Tous droits réservés"
+  },
+  "whatsapp": {
+    "float": "Écrire sur WhatsApp",
+    "hello": "Bonjour Golden Barber, j'ai une question :"
+  },
+  "mobileBar": {
+    "book": "Réserver",
+    "call": "Appeler"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "editor": "Éditeur du site",
+    "editorText": "Golden Barber, 8 rue Flatters, 80000 Amiens. Téléphone : 07 83 55 96 92.",
+    "siret": "SIRET : en cours de communication.",
+    "host": "Hébergement",
+    "hostText": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis.",
+    "data": "Données personnelles",
+    "dataText": "Le site n'utilise ni cookie publicitaire ni outil de mesure d'audience. Le formulaire « Une question ? » n'enregistre rien : il ouvre WhatsApp avec votre message, que vous choisissez d'envoyer ou non. Les réservations sont gérées par Planity, selon sa propre politique de confidentialité.",
+    "credits": "Photos",
+    "creditsText": "Photos : Golden Barber."
+  },
+  "notFound": "Page introuvable"
+}

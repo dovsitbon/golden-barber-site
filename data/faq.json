@@ -1,0 +1,65 @@
+{
+  "_note": "Retard/annulation et paiement : à confirmer avec le salon (voir INFOS-A-DEMANDER.md).",
+  "items": [
+    {
+      "q": {
+        "fr": "Faut-il prendre rendez-vous ?",
+        "en": "Do I need an appointment?"
+      },
+      "a": {
+        "fr": "C'est le plus sûr : sur Planity, vous choisissez l'heure et le barber. Sans rendez-vous, appelez avant de passer pour savoir si un fauteuil est libre.",
+        "en": "It's the safest way: on Planity you pick the time and the barber. No booking? Call before you come to check if a chair is free."
+      }
+    },
+    {
+      "q": {
+        "fr": "Je suis en retard ou je dois annuler",
+        "en": "I'm running late or need to cancel"
+      },
+      "a": {
+        "fr": "Prévenez-nous au plus tôt par téléphone ou WhatsApp au 07 83 55 96 92, ou annulez depuis Planity. Un gros retard peut décaler ou raccourcir la prestation.",
+        "en": "Let us know as early as you can by phone or WhatsApp on +33 7 83 55 96 92, or cancel from Planity. A long delay may mean a later or shorter slot."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment payer ?",
+        "en": "How do I pay?"
+      },
+      "a": {
+        "fr": "Le règlement se fait au salon, après la prestation. Rien n'est payé en ligne.",
+        "en": "You pay at the shop, after your appointment. Nothing is charged online."
+      }
+    },
+    {
+      "q": {
+        "fr": "Vous coiffez les enfants ?",
+        "en": "Do you cut children's hair?"
+      },
+      "a": {
+        "fr": "Oui. Jusqu'à 12 ans, la coupe enfant est à 20 €. Au-delà, c'est la coupe simple.",
+        "en": "Yes. Up to age 12 the kids' cut is €20. After that, it's the classic cut."
+      }
+    },
+    {
+      "q": {
+        "fr": "Le salon est-il réservé aux hommes ?",
+        "en": "Is it men only?"
+      },
+      "a": {
+        "fr": "Non. Golden Barber est un barbier mixte : hommes, femmes et enfants, tout le monde est bienvenu.",
+        "en": "No. Golden Barber is for everyone: men, women and kids are all welcome."
+      }
+    },
+    {
+      "q": {
+        "fr": "Comment marche l'abonnement ?",
+        "en": "How does the membership work?"
+      },
+      "a": {
+        "fr": "Sur quatre prestations dans le même mois, vous n'en payez que trois. Parlez-en à votre barber au prochain passage.",
+        "en": "Have four services in the same month and only pay for three. Ask your barber next time you're in."
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "_note": "Photos du salon (façade, intérieur). Déposer les fichiers dans assets/salon/, lancer npm run media, puis les lister ici. La première sert au bloc « Le salon ». En attendant les vraies photos, c'est un recadrage du fond d'un reel.",
+  "photos": [
+    { "src": "/media/salon/interieur-mur-vegetal.jpg",
+      "alt": { "fr": "L'intérieur du salon : portes noires moulurées, mur végétal et logo doré", "en": "Inside the shop: black panelled doors, green wall and the gold logo" } }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_note": "Galerie. tags parmi : degrade | taper | barbe | long | enfant (un filtre n'apparaît que s'il a au moins une photo). barber : id de data/equipe.json, null tant qu'on ne sait pas qui l'a faite (affiché « L'équipe Golden Barber »). Nouvelles photos : assets/coupes/ puis npm run media.",
+  "filters": ["degrade", "taper", "barbe", "long", "enfant"],
+  "items": [
+    { "src": "/media/coupes/low-fade-mi-long.jpg", "tags": ["degrade"], "barber": null,
+      "alt": { "fr": "Low fade sur cheveux mi-longs coiffés en arrière, vu de profil", "en": "Low fade on mid-length hair swept back, side view" } },
+    { "src": "/media/coupes/taper-boucles-texture.jpg", "tags": ["taper"], "barber": null,
+      "alt": { "fr": "Taper sur cheveux bouclés avec du volume sur le dessus, vu de trois quarts", "en": "Taper on curly hair with volume on top, three-quarter view" } },
+    { "src": "/media/coupes/taper-nuque-texture.jpg", "tags": ["taper", "degrade"], "barber": null,
+      "alt": { "fr": "Taper bas à la nuque, dessus texturé, vu de dos", "en": "Low taper at the nape, textured top, back view" } },
+    { "src": "/media/coupes/taper-afro-coloration.jpg", "tags": ["taper"], "barber": null,
+      "alt": { "fr": "Taper sur cheveux afro colorés cuivre, contours nets", "en": "Taper on copper-coloured afro hair, sharp line-up" } },
+    { "src": "/media/coupes/low-fade-court.jpg", "tags": ["degrade"], "barber": null,
+      "alt": { "fr": "Dégradé bas sur coupe courte, vu de dos", "en": "Low fade on a short cut, back view" } },
+    { "src": "/media/coupes/taper-boucles-nuque.jpg", "tags": ["taper"], "barber": null,
+      "alt": { "fr": "Taper sur cheveux bouclés, vu de dos dans le salon", "en": "Taper on curly hair, back view inside the shop" } }
+  ]
+}
